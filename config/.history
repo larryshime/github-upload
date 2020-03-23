@@ -1,0 +1,7 @@
+git --version
+git config --global user.name larryshyme
+git config --global user.email larryshime@gmail.com
+git config user.email
+git init
+git remote add origin https://github.com/larryshime/github-upload.git
+git add .
