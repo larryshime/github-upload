@@ -2,14 +2,27 @@ git --version
 git config --global user.name larryshyme
 git config --global user.email larryshime@gmail.com
 git config user.email
-git init
-git remote add origin https://github.com/larryshime/github-upload.git
 git commit -m "initializing repository"
-git push -u origin master
-clear
 git pull origin master
 git checkout -b tab-html
 git commit
-git add .
 git commit -m "added stuff"
 git push origin tab-html
+cd ..
+cd Documents
+cd testing
+git status
+git push https://github.com/larryshime/hello-github-actions.git larryshime-patch-1
+git push https://github.com/larryshime/hello-github-actions.git master
+git push --help
+git clone https://github.com/larryshime/hello-github-actions.git
+clear
+git commit -m "testing more stuff"
+git pull -u origin master
+cd newnew
+ls
+git init
+git remote add origin https://github.com/larryshime/github-upload.git
+git add .
+git commit -m "more tests"
+git push -u origin master
