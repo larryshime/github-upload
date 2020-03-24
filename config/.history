@@ -4,6 +4,10 @@ git config --global user.email larryshime@gmail.com
 git config user.email
 git init
 git remote add origin https://github.com/larryshime/github-upload.git
-git add .
 git commit -m "initializing repository"
 git push -u origin master
+clear
+git pull origin master
+git checkout -b tab-html
+git commit
+git add .
